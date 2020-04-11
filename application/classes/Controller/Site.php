@@ -3,8 +3,8 @@
 
 class Controller_Site extends Controller_Layout{
     
-    public function action_index(){
-        $this->page = View::factory('template/menu');
+    public function action_home(){
+        //$this->action_template= View::factory("template/menu");
     }
     
 }

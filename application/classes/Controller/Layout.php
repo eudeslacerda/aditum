@@ -40,7 +40,7 @@ abstract class Controller_Layout extends Controller_Template{
      * @return  void
      */    
     public function init_action_template()
-    {
+    {        
         if ( ! $this->action_template)
         {
             // Auto set name of action template based on current controller and action.

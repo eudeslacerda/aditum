@@ -47,7 +47,8 @@ RewriteBase /
 
 # Protect hidden files from being viewed
 <Files .*>
-    Require all denied
+	Order Deny,Allow
+	Deny From All
 </Files>
 
 # Allow any files or directories that exist to be displayed directly
