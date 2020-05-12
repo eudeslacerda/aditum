@@ -47,7 +47,7 @@ return [
 			 */
 			'dsn'        => 'mysql:host=localhost;dbname=aditum',
 			'username'   => 'root',
-			'password'   => '',
+			'password'   => 'password',
 			'persistent' => FALSE,
 		],
 		/**
